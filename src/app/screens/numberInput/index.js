@@ -68,6 +68,7 @@ const NumberInput = ({route}) => {
               style={styles.phoneNumberInput}
               selectionColor={COLORS.themeYellow}
               multiline
+              maxLength={10}
               keyboardType="numeric"
               value={input}
               onChangeText={text => {
@@ -92,12 +93,12 @@ const NumberInput = ({route}) => {
             <TouchableOpacity
             onPress={()=>{navigation.navigate("Otp")}}
               activeOpacity={input.length > 0 ? 0.8 : 1}
-              // disabled={input.length === 0}
+              disabled={input.length !== 10}
               style={[
                 styles.nextButton,
                 {
                   backgroundColor:
-                    input.length > 0 ? COLORS.themeYellow : COLORS.lightGrey,
+                    input.length == 10 ? COLORS.themeYellow : COLORS.lightGrey,
                 },
               ]}>
               <Feather name="chevron-right" size={25} color={COLORS.black} />
