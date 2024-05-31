@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/res/fonts/Playfair Display.ttf",
+      "sha1": "2fcb048a917b7607887df262ee3742a50264c764"
+    },
+    {
+      "path": "src/res/fonts/Roboto Bold.ttf",
+      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
+    },
+    {
+      "path": "src/res/fonts/Roboto Medium.ttf",
+      "sha1": "3c6a09fcc6a454924c81af7dff94fc6d399ed79b"
+    },
+    {
+      "path": "src/res/fonts/Roboto Thin.ttf",
+      "sha1": "58c733e22bceeaf9609ce578eca92ac303c6d92f"
+    },
+    {
+      "path": "src/res/fonts/Roboto.ttf",
+      "sha1": "56c5c0d38bde4c1f1549dda43db37b09c608aad3"
+    },
+    {
+      "path": "src/res/fonts/index.js",
+      "sha1": "1b0c182be45e607cf958e379a0fd7e61e0bc2a99"
+    }
+  ]
+}

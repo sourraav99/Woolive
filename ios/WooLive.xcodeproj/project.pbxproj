@@ -12,9 +12,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2261A2A6381F4A18A6378AB4 /* Playfair Display.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E270E3D33C7F4AC9935DAD29 /* Playfair Display.ttf */; };
+		508321171B1D402ABFB4B077 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 29370B62827A42769F28C27C /* index.js */; };
 		7699B88040F8A987B510C191 /* libPods-WooLive-WooLiveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-WooLive-WooLiveTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AFA8DBF9AC8D4429980C0226 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1977D6E267432BA78ECC22 /* Roboto.ttf */; };
+		BFFBA05DDB0C437C8960EC51 /* Roboto Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0A1F441A2C0474DB22774BC /* Roboto Bold.ttf */; };
 		C52C5ADC4BC87256FA2A72C9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C65FC4219E5E6810ED4252F7 /* PrivacyInfo.xcprivacy */; };
+		C90F6725DD9344E68945AEC3 /* Roboto Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4C858F848AD422597A3320A /* Roboto Thin.ttf */; };
+		D22E84F549984DC183293346 /* Roboto Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD68C4E0D1B84593828D9647 /* Roboto Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +45,20 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WooLive/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = WooLive/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-WooLive-WooLiveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WooLive-WooLiveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29370B62827A42769F28C27C /* index.js */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = index.js; path = ../src/res/fonts/index.js; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-WooLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooLive.debug.xcconfig"; path = "Target Support Files/Pods-WooLive/Pods-WooLive.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-WooLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooLive.release.xcconfig"; path = "Target Support Files/Pods-WooLive/Pods-WooLive.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-WooLive-WooLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooLive-WooLiveTests.debug.xcconfig"; path = "Target Support Files/Pods-WooLive-WooLiveTests/Pods-WooLive-WooLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-WooLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WooLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1977D6E267432BA78ECC22 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = ../src/res/fonts/Roboto.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WooLive/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-WooLive-WooLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooLive-WooLiveTests.release.xcconfig"; path = "Target Support Files/Pods-WooLive-WooLiveTests/Pods-WooLive-WooLiveTests.release.xcconfig"; sourceTree = "<group>"; };
-		C65FC4219E5E6810ED4252F7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = WooLive/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A0A1F441A2C0474DB22774BC /* Roboto Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto Bold.ttf"; path = "../src/res/fonts/Roboto Bold.ttf"; sourceTree = "<group>"; };
+		B4C858F848AD422597A3320A /* Roboto Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto Thin.ttf"; path = "../src/res/fonts/Roboto Thin.ttf"; sourceTree = "<group>"; };
+		C65FC4219E5E6810ED4252F7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = WooLive/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E270E3D33C7F4AC9935DAD29 /* Playfair Display.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Playfair Display.ttf"; path = "../src/res/fonts/Playfair Display.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FD68C4E0D1B84593828D9647 /* Roboto Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto Medium.ttf"; path = "../src/res/fonts/Roboto Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		50AFB68B452D4F98B09C09C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E270E3D33C7F4AC9935DAD29 /* Playfair Display.ttf */,
+				A0A1F441A2C0474DB22774BC /* Roboto Bold.ttf */,
+				FD68C4E0D1B84593828D9647 /* Roboto Medium.ttf */,
+				B4C858F848AD422597A3320A /* Roboto Thin.ttf */,
+				6C1977D6E267432BA78ECC22 /* Roboto.ttf */,
+				29370B62827A42769F28C27C /* index.js */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +153,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				50AFB68B452D4F98B09C09C4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +276,12 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C52C5ADC4BC87256FA2A72C9 /* PrivacyInfo.xcprivacy in Resources */,
+				2261A2A6381F4A18A6378AB4 /* Playfair Display.ttf in Resources */,
+				BFFBA05DDB0C437C8960EC51 /* Roboto Bold.ttf in Resources */,
+				D22E84F549984DC183293346 /* Roboto Medium.ttf in Resources */,
+				C90F6725DD9344E68945AEC3 /* Roboto Thin.ttf in Resources */,
+				AFA8DBF9AC8D4429980C0226 /* Roboto.ttf in Resources */,
+				508321171B1D402ABFB4B077 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
